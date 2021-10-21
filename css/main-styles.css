@@ -4,32 +4,57 @@ main {
 
 #avatares {
     display: flex;
+    justify-content: space-between;
+    margin: 60px;
 }
 
 .avatar {
-    height: 400px;
+    background: #000;
+    height: 300px;
     width: 250px;
     overflow: hidden;
+    padding: 40px;
     position: relative;
+    text-align: center;
 }
 
 .avatar div {
     margin: 0 auto;
     max-height: 180px;
     max-width: 180px;
-    overflow: hidden;
 }
 
 .avatar img {
+    border: 4px solid #FCDB63;
     border-radius: 150px;
     max-width: 180px;
-    overflow: hidden;
 }
 
 .avatar p {
     color: #fff;
 }
 
+#herramientas {
+    background: #FCDB63;
+    padding: 5px 40px 35px 40px;
+    text-align: center;
+}
+
+.herramientas {
+    margin: 10px;
+}
+
 .herramientas img {
+    border-radius: 150px;
     max-height: 60px;
+}
+
+.herramientas img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all .2seg ease-in-out;
+}
+
+.figma img, .trello img, .vsc img {
+    background: rgb(255, 255, 255);
 }
