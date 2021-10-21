@@ -1,0 +1,53 @@
+header {
+    background: #4CCEDE;
+    padding: 30px 40px !important;
+}
+
+header img {
+    max-width: 380px;
+}
+
+header h2 {
+    font-size: 18px;
+    padding: 14px 0 0 0;
+}
+
+/* Menu */
+.menu {
+    border: 4px solid #FCDB63;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn-burguer {
+    background: #FCDB63;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0,.2);
+    height: 6px;
+    width: 50px;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn-burguer::before, .menu-btn-burguer::after {
+    background: #FCDB63;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0,.2);
+    content: '';
+    position: absolute;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn-burguer::before, .menu-btn-burguer::after {
+    transform: translateY(-16px);
+}
+
+/* end of Menu */
+
+footer {
+    padding: 20px 40px 20px 0 !important;
+    text-align: right;
+}

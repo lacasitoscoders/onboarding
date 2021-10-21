@@ -1,0 +1,11 @@
+main {
+    padding: 40px;
+}
+
+.avatar img {
+    max-width: 200px;
+}
+
+.avatar p {
+    color: #fff;
+}
