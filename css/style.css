@@ -47,8 +47,12 @@ table {
 }
 
 /* Titles */
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, p {
     font-family: Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 {
     font-weight: bold;
 }
 
@@ -65,5 +69,4 @@ h4 {
     color: #fff;
 	padding: 40px;
 }
-
 /* end of Titles */
