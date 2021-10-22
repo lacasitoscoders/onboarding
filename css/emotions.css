@@ -1,0 +1,18 @@
+.listado-estados img {
+    cursor: pointer;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.listado-estados img:hover {
+    transform: scale(1.2);
+    transition: all 0.4seg ease-in-out;
+}
+
+.listado-estados:focus {
+    border: 2px solid #FCDB63;
+    border-radius: 150px;
+}
