@@ -4,25 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Onboarding</title>
 </head>
 <body>
     <header>
-
-    </header>
-    <main>
         <section>
-            <h3>Miembros del equipo</h3>
-            <div id="Elena" class="avatar">
-                <img src="img/Elena.jpg" alt="Elena">
-                <h4>Elena</h4>
-                <p>Creativa metódica</p>
+            <div id="marca">
+                <img src="assets/logo-lacasitoscoders.png" alt="logo-lacasitoscoders">
+            </div>
+            <div>
+                <h2>Somos de diferentes colores pero con los mismos atributos</h2>
+            </div> 
+            <div id="estados">
+                <div class="visualizador-estado" style="display: none;">
+                    <img src=""/>
+                    <div class="button" id="button-other">
+                        <span>Other</span>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section>
+            <div class="menu">
+                <div class="menu-btn-burguer"></div>
             </div>
         </section>
-        <section>
+    </header>
+    <main>
+        <section id="equipo">
+            <h3>Miembros del equipo</h3>
+            <div id="avatares">
+                <div id="Elena" class="avatar">
+                    <div>
+                        <img src="assets/Elena.jpg" alt="Elena">
+                    </div>
+                    <div>
+                        <h4>Elena</h4>
+                        <p>Creativa metódica</p>
+                    </div>
+                </div>
+                <div id="Migdelis" class="avatar">
+                    <div>
+                        <img src="assets/Migdelis.jpg" alt="Migdelis">
+                    </div>
+                    <div>
+                        <h4>Migdelis</h4>
+                        <p>Organizada colaboradora</p>
+                    </div>
+                </div>
+                <div id="Omar" class="avatar">
+                    <div>
+                        <img src="assets/Omar.jpg" alt="Omar">
+                    </div>
+                    <div>
+                        <h4>Omar</h4>
+                        <p>Empático estructurado</p>
+                    </div>
+                </div>
+                <div id="Christian" class="avatar">
+                    <div>
+                        <img src="assets/Christian.jpg" alt="Christian">
+                    </div>
+                    <div>
+                        <h4>Christian</h4>
+                        <p>Autosuficiente</p>
+                    </div>
+                </div>              
+            </div>
+        </section>
+        <section id="herramientas">
+            <h3>Herramientas utilizadas</h3>
+            <a href="https://zoom.us" class="herramientas zoom" target="_blank"><img src="assets/logo-zoom.png" alt="Zoom"></a>
+            <a href="https://slack.com/intl/es-es/" class="herramientas slack" target="_blank"><img src="assets/logo-slack.png" alt="Slack"></a>
+            <a href="https://www.figma.com" class="herramientas figma" target="_blank"><img src="assets/logo-figma.png" alt="Figma"></a>
+            <a href="https://trello.com" class="herramientas trello" target="_blank"><img src="assets/logo-trello.png" alt="Trello"></a>
+            <a href="https://code.visualstudio.com" class="herramientas vsc" target="_blank"><img src="assets/logo-vsc.png" alt="Visual Studio Code"></a>
+            <a href="https://www.adobe.com/es/products/photoshop.html" class="herramientas ps" target="_blank"><img src="assets/logo-photoshop.png" alt="Adobe Photoshop"></a>
+        </section>
+        <section id="estados">
+            <div id="contenedor-estados">
+                <div class="selector-estados">
+                    <div class="listado-estados">
+                        <img src="assets/euforia.png" alt="euforia" class="active">
+                        <img src="assets/alegria.png" alt="alegría" class="active">
+                        <img src="assets/miedo.png" alt="miedo" class="active">
+                        <img src="assets/tristeza.png" alt="tristeza" class="active">
+                    </div>
+                    <div class="btn-estados">
+                        <input type="button" value="Confirmar" id="btn-confirmar">
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>     
+    <footer>
+        <p>Lacasitos Coders&copy;</p>        
     </footer>
 </body>
 </html>

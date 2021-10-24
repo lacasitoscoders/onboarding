@@ -1,0 +1,23 @@
+header {
+    align-items: center;
+    background: #4CCEDE;
+    display: flex !important;
+    justify-content: space-between;
+    padding: 30px 40px !important;
+}
+
+header #marca img {
+    max-width: 380px;
+}
+
+header h2 {
+    font-size: 18px;
+    padding: 14px 0 0 0;
+}
+
+footer {
+    background: #4CCEDE;
+    color: #666;
+    padding: 20px 40px 20px 0 !important;
+    text-align: right;
+}
